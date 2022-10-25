@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-NumList = ['one', 'two', 'three', 'four',
-           'five', 'six', 'seven', 'eight']
-C_number = int(input("Enter number (|C|<9): "))
-
 
 if __name__ == "__main__":
+
+    NumList = ['one', 'two', 'three', 'four',
+               'five', 'six', 'seven', 'eight']
+    C_number = int(input("Enter number (|C|<9): "))
+
     if C_number <= -9 or C_number >= 9:
         print("Your number is out of range")
     else:
