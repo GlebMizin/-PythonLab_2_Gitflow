@@ -14,6 +14,6 @@ if __name__ == "__main__":
             # Checking the number of paws
             if rabbits * 4 + (ducks * 2) == 64:
 
-                # Output of the number of animals
+                # Output the numbers of animals
                 print("Number of rabbits:", rabbits,
                       "\nNumber of ducks:", ducks, "\n")

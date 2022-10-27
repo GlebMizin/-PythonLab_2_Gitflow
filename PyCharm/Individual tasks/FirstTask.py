@@ -18,7 +18,7 @@ if __name__ == "__main__":
     # Displaying a number with a sign
     else:
         if C_number < 0:
-            print('Your number is: minus ' + NumList[C_number-1])
+            print('Your number is: minus ' + NumList[(C_number*-1)-1])
         elif C_number > 0:
             print('Your number is: ' + NumList[C_number-1])
         else:
