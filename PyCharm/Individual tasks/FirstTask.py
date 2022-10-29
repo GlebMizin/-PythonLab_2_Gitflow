@@ -5,8 +5,16 @@
 if __name__ == "__main__":
 
     # List of numbers
-    NumList = ['one', 'two', 'three', 'four',
-               'five', 'six', 'seven', 'eight']
+    NumList = [
+    'one',
+    'two',
+    'three',
+    'four',
+    'five', 
+    'six', 
+    'seven', 
+    'eight'
+    ]
 
     # Number input
     C_number = int(input("Enter number (|C|<9): "))
