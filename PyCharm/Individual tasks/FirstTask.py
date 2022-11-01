@@ -5,21 +5,29 @@
 if __name__ == "__main__":
 
     # List of numbers
-    NumList = ['one', 'two', 'three', 'four',
-               'five', 'six', 'seven', 'eight']
+    num_list = [
+        'one',
+        'two',
+        'three',
+        'four',
+        'five',
+        'six',
+        'seven',
+        'eight'
+    ]
 
     # Number input
-    C_number = int(input("Enter number (|C|<9): "))
+    c_number = int(input("Enter number (|C|<9): "))
 
     # Number range check
-    if C_number <= -9 or C_number >= 9:
+    if c_number <= -9 or c_number >= 9:
         print("Your number is out of range")
 
     # Displaying a number with a sign
     else:
-        if C_number < 0:
-            print('Your number is: minus ' + NumList[(C_number*-1)-1])
-        elif C_number > 0:
-            print('Your number is: ' + NumList[C_number-1])
+        if c_number < 0:
+            print('Your number is: minus ' + num_list[(c_number*-1)-1])
+        elif c_number > 0:
+            print('Your number is: ' + num_list[c_number-1])
         else:
             print('Your number is: zero')

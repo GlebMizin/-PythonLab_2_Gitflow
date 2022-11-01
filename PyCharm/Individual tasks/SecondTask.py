@@ -11,13 +11,13 @@ if __name__ == "__main__":
     b1, b2 = map(int, input("Enter second point coordinates: ").split())
 
     # Calculating the distance to a point from the origin
-    A_point = math.sqrt(a1 ** 2 + a2 ** 2)
-    B_point = math.sqrt(b1 ** 2 + b2 ** 2)
+    a_point = math.sqrt(a1 ** 2 + a2 ** 2)
+    b_point = math.sqrt(b1 ** 2 + b2 ** 2)
 
     # Comparison of the obtained values and conclusion
-    if A_point > B_point:
+    if a_point > b_point:
         print("Point A is farther than B")
-    elif A_point < B_point:
+    elif a_point < b_point:
         print("Point B is farther than A")
     else:
         print("Points are on the same distance")
