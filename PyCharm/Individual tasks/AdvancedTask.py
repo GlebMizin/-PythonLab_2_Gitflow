@@ -18,7 +18,7 @@ if __name__ == "__main__":
 
     # Find the sum of the terms of the series.
     while math.fabs(a) > EPS:
-        a *= x ** 2 * (2 * n - 1) / (2 * n * (2 * n + 1) ** 2)
+        a *= -1 * (2 * n + 3) ** 2 * (2 * n + 2) / x ** 2 * (2 * n + 1)
         Sum += a
         n += 1
 
