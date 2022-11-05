@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-
 if __name__ == "__main__":
     print("All distribution options for rabbits and ducks:")
 
